@@ -22,15 +22,18 @@ Reverses the string
     }
 
     private static void stringReverse(String str) {
+        System.out.println("Reversed:");
         System.out.println(StringUtils.reverse(str));
     }
 
     private static void stringFlipCase(String str) {
+        System.out.println("Flipped case:");
         System.out.println(StringUtils.swapCase(str));
     }
 
     private static void stringIsANumber(String str) {
-        System.out.println(str + " is" + (StringUtils.isNumeric(str) ? " " : " not a ") + "number.");
+        System.out.println("Numeric:");
+        System.out.println(str + " is " + (StringUtils.isNumeric(str) ? "" : "not ") + "a number");
     }
 
 
