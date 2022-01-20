@@ -8,7 +8,7 @@ public class GuavaTester {
         try {
             System.out.println(IntMath.checkedAdd(bigNum, 1));
         } catch (ArithmeticException e) {
-            System.out.println("OVERFLOW DETECTED OH NO");
+            System.err.println("OVERFLOW DETECTED OH NO");
         }
     }
 }
